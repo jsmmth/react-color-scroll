@@ -1,0 +1,43 @@
+{
+  "name": "react-color-scroll",
+  "version": "0.1.1",
+  "description": "Simple scrolling component which blends colors as you scroll down the page",
+  "main": "lib/react-color-scroll.min.js",
+  "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephSmith127/react-color-scroll.git"
+  },
+  "keywords": [
+    "scroll",
+    "react",
+    "color",
+    "blend",
+    "transition"
+  ],
+  "dependencies": {
+    "react": "15.6.1",
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-eslint": "4.1.3",
+    "babel-loader": "6.1.0",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "1.12.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "bugs": {
+    "url": "https://github.com/JosephSmith127/react-color-scroll/issues"
+  },
+  "homepage": "https://github.com/JosephSmith127/react-color-scroll#readme",
+  "author": "Joseph Smith",
+  "license": "MIT"
+}
