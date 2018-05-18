@@ -104,6 +104,12 @@ class ColorScroll extends PureComponent {
         this.setState({ background })
       }
     }
+
+    // Here we'll give access to the onscroll event if the user wants to run
+    // additional functions based on the scroll of the container
+    if (this.props.onScroll) {
+      this.props.onScroll(e)
+    }
   }
 
   render () {
