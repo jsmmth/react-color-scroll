@@ -22,6 +22,7 @@ class HomePage extends React.PureComponent {
       <ColorScroll
         colors={['#FFFCF9', '#FFF9F9', '#FCF9FF']}
         className='my-color-scroll' // Defaults to 'color-scroll'
+        onScroll={(e) => console.log(e)} // Optional access to the onScroll event
       >
         {/* Your site content in here */}
       </ColorScroll>
