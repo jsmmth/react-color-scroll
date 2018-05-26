@@ -126,7 +126,8 @@ class ColorScroll extends PureComponent {
           right: 0,
           maxHeight: '100%',
           overflow: 'auto',
-          backgroundColor: this.state.background
+          backgroundColor: this.state.background,
+          WebkitOverflowScrolling: 'touch'
         }}
       >
         {Children.toArray(this.props.children)}

@@ -1,6 +1,6 @@
 {
   "name": "react-color-scroll",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple scrolling component which blends colors as you scroll down the page",
   "main": "lib/react-color-scroll.min.js",
   "scripts": {
